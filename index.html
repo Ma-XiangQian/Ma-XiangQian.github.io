@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/wave.css">
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <link id="ico" rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title></title>
+  <script src="./js/index.js"></script>
+  <script src="./config.js"></script>
+  <script src="./js/jq.js"></script>
+  <script src="./js/render.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div id="header-top"></div>
+    <div id="header-content"></div>
+    <div id="wave-move">
+      <div class="preview-overlay">
+        <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+          </defs>
+          <g class="preview-parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+            <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+            <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+            <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div id="container">
+      <div id="txt"></div>
+      <div id="show"></div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>起于此，但不仅如此！</p>
+    <p>Copyright © 没眼睛的程序猿 2021</p>
+  </footer>
+
+</body>
+</html>
