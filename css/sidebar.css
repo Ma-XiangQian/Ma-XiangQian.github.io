@@ -16,6 +16,26 @@
     margin-bottom: 20px;
 }
 
+.sidebar section .tags{
+    display:flex;
+}
+.sidebar section .tags a{
+    color: #bfbfbf;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px !important;
+    border: solid 0.5px #bfbfbf;
+    margin-right:8px;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+.sidebar section .tags a:hover{
+    color:teal;
+    border-color:teal;
+}
+
 .sidebar .link ul{
     display:flex;
     flex-wrap: wrap;

@@ -24,17 +24,17 @@
 }
 .top-nav ul li a{
     display:block;
-    color:#fff;
     font-size:15px;
     font-weight:100;
     padding:5px 0;
+    color:#fff;
 }
 .top-nav ul li span{
     position: absolute;
     width:0;
     height:1px;
-    background-color:#fff;
     transition:all 0.3s;
+    background-color:#fff;
 }
 .top-nav ul li:hover span{
     width:100%;
