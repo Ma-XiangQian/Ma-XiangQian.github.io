@@ -1,0 +1,82 @@
+.sidebar{
+    width:100%;
+    padding:40px 0;
+    box-sizing:border-box;
+}
+
+.sidebar section{
+    padding-bottom:30px;
+    border-bottom:0.5px solid #eee;
+    margin-bottom:20px;
+}
+
+.sidebar section h3{
+    font-size: 15px;
+    color: #a3a3a3;
+    margin-bottom: 20px;
+}
+
+.sidebar .link ul{
+    display:flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+}
+
+.sidebar .link ul li{
+    margin-right:8px;
+    margin-bottom:10px;
+}
+
+.sidebar .link ul li a{
+    color: #bfbfbf;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: solid 0.5px #bfbfbf;
+}
+
+.sidebar .link ul li:hover a{
+    color:teal;
+    border-color:teal;
+}
+
+.sidebar .about .about-content{
+    display:flex;
+    flex-direction: column;
+}
+.sidebar .about .about-content img{
+    width:100px;
+    border-radius:10px;
+    display:inline-block;
+    box-shadow:1px 3px 8px rgba(0, 0,0,.1);
+}
+.sidebar .about .about-content .about-msg{
+    display:flex;
+    flex-direction:column;
+}
+.sidebar .about .about-content .about-msg p{
+    font-size:15px;
+    color: teal;
+    margin:10px 0;
+}
+
+.sidebar .about .about-content .about-msg .about-link{
+    display:flex;
+}
+.sidebar .about .about-content .about-msg .about-link li{
+    margin-right:10px;
+    display:flex;
+    width:30px;
+    height:30px;
+    background-color:#fff;
+    border-radius:50%;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #bfbfbf;
+}
+.sidebar .about .about-content .about-msg .about-link li a{
+    display: inline-block;
+    color:#a3a3a3;
+    font-size:20px;
+}

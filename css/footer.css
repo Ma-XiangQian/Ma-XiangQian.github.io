@@ -1,0 +1,20 @@
+footer{
+    width:100%;
+    padding:40px 0;
+    background-color:#171f26;
+    display:flex;
+    justify-content: center;
+}
+
+footer .footer-container{
+    width:1200px;
+    display:flex;
+    justify-content: space-between;
+    padding:0 20px;
+}
+
+footer .footer-container .footer-left p{
+    color:rgba(255,255,255,.6);
+    font-weight:100;
+    line-height:1.5;
+}
