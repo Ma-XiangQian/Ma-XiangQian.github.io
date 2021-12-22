@@ -27,7 +27,26 @@ main .main-index .page section > h1 a{
 main .main-index .page section .post-content{
     font-weight: 100;
     color: #a3a3a3;
-    line-height: 2;
+    line-height:2;
+}
+
+main .main-index .page section .post-footer{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    margin-top:5px;
+    color:#a3a3a3;
+}
+main .main-index .page section .post-footer .post-footer-time{
+    display:flex;
+    align-items: center;
+}
+main .main-index .page section .post-footer .post-footer-time i{
+    margin-right:5px;
+    font-size:15px;
+}
+main .main-index .page section .post-footer .post-footer-time span{
+    font-weight:100;
 }
 
 main .main-index .page section:hover{

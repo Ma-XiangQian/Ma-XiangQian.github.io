@@ -1,17 +1,17 @@
 .top-nav{
     width:100%;
     display:flex;
-    padding:20px;
+    padding:20px 40px;
     justify-content:space-between;
     align-items: center;
     box-sizing: border-box;
     background-color:transparent;
-    position:absolute;
+    position:fixed;
     left:0;
     top:0;
     z-index:99;
     transition:all 0.3s;
-    transform:translateY(0px);
+    transform:translateY(-0px);
 }
 .top-nav h1 a{
     font-size:20px;
@@ -22,7 +22,7 @@
     display:flex;
 }
 .top-nav ul li{
-    margin-right:20px;
+    margin-left:20px;
     position: relative;
 }
 .top-nav ul li a{
@@ -36,9 +36,10 @@
 .top-nav ul li span{
     position: absolute;
     width:0;
-    height:1px;
+    height:3px;
     transition:all 0.2s;
     background-color:#fff;
+    border-radius:10px;
 }
 
 .top-nav ul li:hover span{
@@ -46,10 +47,8 @@
 }
 
 .nav-style{
-    padding:10px 20px;
     box-shadow:0px 3px 5px rgba(0, 0, 0, .1);
     background-color:#FFf;
-    position: fixed;
 }
 
 .nav-style h1 a{

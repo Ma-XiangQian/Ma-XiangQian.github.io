@@ -24,11 +24,14 @@
 }
 
 @media screen and (max-width:768px){
+    .top-nav{
+        padding:10px 20px;
+    }
     header{
-        height:300px;
+        height:360px;
     }
     header .header-banner{
-        height:300px;
+        height:360px;
     }
     header .header-container h1{
         font-size:50px;
@@ -56,8 +59,8 @@
         padding:0 10px;
     }
     main .main-index .page .next-btn a{
-        padding:0 10px;
-        line-height:10px;
+        /* padding:0 15px;
+        line-height:20px; */
         border-radius:5px;
         font-size:14px;
     }
@@ -75,5 +78,9 @@
     main .main-index .index-right .sidebar .about .about-content .about-msg{
         align-items: center;
         margin-left:20px;
+    }
+
+    footer .footer-container{
+        justify-content: center;
     }
 }
