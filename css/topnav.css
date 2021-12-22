@@ -7,13 +7,16 @@
     box-sizing: border-box;
     background-color:transparent;
     position:absolute;
-    top:0;
     left:0;
+    top:0;
     z-index:99;
+    transition:all 0.3s;
+    transform:translateY(0px);
 }
 .top-nav h1 a{
     font-size:20px;
     color:#fff;
+    transition:all 0.3s;
 }
 .top-nav ul{
     display:flex;
@@ -28,14 +31,34 @@
     font-weight:100;
     padding:5px 0;
     color:#fff;
+    transition:all 0.3s;
 }
 .top-nav ul li span{
     position: absolute;
     width:0;
     height:1px;
-    transition:all 0.3s;
+    transition:all 0.2s;
     background-color:#fff;
 }
+
 .top-nav ul li:hover span{
     width:100%;
+}
+
+.nav-style{
+    padding:10px 20px;
+    box-shadow:0px 3px 5px rgba(0, 0, 0, .1);
+    background-color:#FFf;
+    position: fixed;
+}
+
+.nav-style h1 a{
+    color:#404040;
+}
+
+.nav-style ul li a{
+    color:#404040;
+}
+.nav-style ul li span{
+    background-color:#404040;
 }

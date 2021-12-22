@@ -1,7 +1,7 @@
 @media screen and (max-width:1000px) and (min-width:768px){
-    .top-nav{
+    /* .top-nav{
         background-color:red;
-    }
+    } */
     main .main-index{
         flex-direction:column;
     }
@@ -27,11 +27,14 @@
     header{
         height:300px;
     }
+    header .header-banner{
+        height:300px;
+    }
     header .header-container h1{
-        font-size:40px;
+        font-size:50px;
     }
     header .header-container h3{
-        font-size:16px;
+        font-size:15px;
     }
     main .main-index{
         flex-direction:column;
@@ -47,23 +50,23 @@
         font-size:25px;
     }
     main .main-index .page section .post-content{
-        font-size:12px;
+        font-size:15px;
     }
     main .main-index .page .next-btn{
         padding:0 10px;
     }
     main .main-index .page .next-btn a{
-        padding:0 20px;
-        line-height:20px;
+        padding:0 10px;
+        line-height:10px;
         border-radius:5px;
         font-size:14px;
     }
     main .main-index .page .next-btn .page-num{
-        font-size:12px;
+        font-size:15px;
     }
     main .main-index .index-right{
         width:100%;
-        padding:0 10px;
+        padding:0 20px;
     }
     main .main-index .index-right .sidebar .about .about-content{
         flex-direction: row;
